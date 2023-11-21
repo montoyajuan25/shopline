@@ -1,0 +1,36 @@
+.button-container {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  width: 250px;
+  height: 40px;
+  align-items: center;
+  margin-right: 50px;
+  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px,
+
+}
+
+.button {
+  outline: 0 !important;
+  border: 0 !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+
+}
+
+.icon {
+  font-size: 16px;
+}
