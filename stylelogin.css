@@ -1,43 +1,5 @@
-body{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0px;
-  
-}
-a{
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-}
-header{
-  display: flex;
-  height: 80px;
-  background-color: rgb(249, 195, 4);
-  justify-content: space-between;
-  align-items: center;
-}
-.logo{
-  display: flexbox;
-  text-align: center;
-  align-items: center;
-}
-.logo img{
-  height: 100px;
-  margin-right: 0px;
-  margin-left: 35px;
-}
-nav a{
-  font-weight: 10px;
-  padding-right: 20px;
-  font-size: 20px;
-  font-size: 25px;
-}
-nav a:hover{
-  color: rgb(255, 255, 255);
-}
-
 .form_main {
-  width: 220px;
+  width: 280px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,7 +29,7 @@ nav a:hover{
 
 .heading {
   font-size: 2em;
-  color: #2e2e2e;
+  color: #000000;
   font-weight: 700;
   margin: 40px 0 40px 0;
   z-index: 2;
@@ -107,7 +69,7 @@ nav a:hover{
 }
 
 .inputField::placeholder {
-  color: rgb(80, 80, 80);
+  color: rgb(0, 0, 0);
   font-size: 1em;
   font-weight: 500;
 }
@@ -135,9 +97,8 @@ nav a:hover{
   z-index: 2;
   font-size: .7em;
   font-weight: 500;
-  color: rgb(44, 24, 128);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 8px 15px;
   border-radius: 20px;
 }
-
