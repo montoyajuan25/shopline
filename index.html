@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio Shopline</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
   <link rel="stylesheet" href="estilos/style.css">
   <link rel="stylesheet" href="estilos/estilohref.css">
   <link rel="stylesheet" href="estilos/estilosfondos.css">
@@ -44,6 +46,25 @@
         </a>
       </div>
           </header>
-          
+          <div class="carousel">
+            <div><img src="img/ima1.jpeg" alt="Imagen 1"></div>
+            <div><img src="img/ima2.jpeg" alt="Imagen 2"></div>
+            <div><img src="img/2.jpeg" alt="Imagen 3"></div>
+            <!-- Agrega más imágenes según sea necesario -->
+          </div>
+          <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.carousel').slick({
+        autoplay: true,
+        autoplaySpeed: 2000, // Cambia la velocidad de reproducción (en milisegundos)
+        dots: true, // Muestra los puntos de navegación
+        arrows: true // Muestra las flechas de navegación
+      });
+    });
+  </script>
+</body>
+</html>
 </body>
 </html
