@@ -1,0 +1,19 @@
+.carousel {
+    width:  1000px; /* Ancho del carrusel */
+    height: 600px;
+    margin: 10px; /* Centra el carrusel horizontalmente */
+    overflow: hidden; /* Oculta las partes de las imágenes que se salgan del carrusel */
+    white-space: nowrap; /* Evita que las imágenes se envuelvan a una nueva línea */
+  }
+  
+  .carousel div {
+    display: inline-block; /* Muestra las imágenes en línea */
+    width: 100%; /* Asegura que cada imagen ocupe el ancho completo del carrusel */
+    text-align: center; /* Centra las imágenes horizontalmente */
+  }
+  
+  .carousel img {
+    max-width: 100%; /* Hace que las imágenes se ajusten al ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
+  
